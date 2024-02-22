@@ -71,7 +71,7 @@ for (const seat of seats) {
             // next
             console.log(nextButton);
             nextButton.addEventListener('click', function() {
-                document.getElementById("vissible-section").classList.add("hidden");
+                document.getElementById("visible-section").classList.add("hidden");
                 document.getElementById("hidden-section").classList.remove("hidden");
 
             })
@@ -87,10 +87,8 @@ for (const seat of seats) {
             // next
             console.log(nextButton);
             nextButton.addEventListener('click', function() {
-                // console.log("shamim");
                 document.getElementById("visible-section").classList.add("hidden");
                 document.getElementById("hidden-section").classList.remove("hidden");
-
             })
         }
         else{
